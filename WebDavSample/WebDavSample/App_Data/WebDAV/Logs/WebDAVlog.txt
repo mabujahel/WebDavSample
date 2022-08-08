@@ -1,0 +1,144 @@
+[8] ----------------- WebDAV Started: 8/8/2022 6:04:28 PM -----------------
+[8] [GET] /dav
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: close
+Cookie: Abp.Localization.CultureName=ar; Webstorm-5dc341c0=31d1662e-8138-41b2-b6ba-b28d8fd0bf48; Abp.TenantId=; .AspNetCore.Culture=c%3Dar%7Cuic%3Dar; .AspNetCore.Antiforgery.PemIfRrkNTU=CfDJ8PjKjslIJi1Ahi9R0Khktu2wCTfsVIBW5JaOPkL7NS7G90JrER995Qkwap2QU0PVOc2BMoJ6UiB4yhGZh30dsW-4E60VCwd-fAFigbzHc5RlpybREfkN8BG6EG-GfNQo1x-b_csLRGQBJLmphRddjn8; XSRF-TOKEN=CfDJ8PjKjslIJi1Ahi9R0Khktu3TFCM0LFKsi2jb82aRjnNLtYaVHotrKgNXV26iDH8uufXH2v9JyJHnKQSiS1tK204y4Bi1oFsKNmuO-h0smiTmmHsluFiIA7XMwXzlKyDWPcbclhIA66BzUk03p1FWveU
+Host: localhost:44395
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+upgrade-insecure-requests: 1
+sec-fetch-site: none
+sec-fetch-mode: navigate
+sec-fetch-user: ?1
+sec-fetch-dest: document
+
+[8] HTTP/1.1 200 
+X-Env-Version : .NET 5.0.17 64bit
+X-OS-Version : Microsoft Windows 10.0.22000
+Access-Control-Allow-Origin : *
+Access-Control-Allow-Credentials : true
+Access-Control-Allow-Methods : ACL, CANCELUPLOAD, CHECKIN, CHECKOUT, COPY, DELETE, GET, HEAD, LOCK, MKCALENDAR, MKCOL, MOVE, OPTIONS, POST, PROPFIND, PROPPATCH, PUT, REPORT, SEARCH, UNCHECKOUT, UNLOCK, UPDATE, VERSION-CONTROL
+Access-Control-Allow-Headers : Overwrite, Destination, Content-Type, Depth, User-Agent, Translate, Range, Content-Range, Timeout, X-File-Size, X-Requested-With, If-Modified-Since, X-File-Name, Cache-Control, Location, Lock-Token, If
+Access-Control-Expose-Headers : DAV, content-length, Allow
+Access-Control-Max-Age : 2147483647
+X-Engine : IT Hit WebDAV Server .Net v12.1.11786.0 (Evaluation License)
+Content-Length : 30361
+Content-Type : text/html; charset=utf-8
+
+[14] ----------------- WebDAV Finished: 8/8/2022 6:04:28 PM Took 78ms --------
+
+[13] ----------------- WebDAV Started: 8/8/2022 6:04:29 PM -----------------
+[13] [PROPFIND] /dav/
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: close
+Content-Length: 232
+Content-Type: text/xml; charset="UTF-8"
+Cookie: Abp.Localization.CultureName=ar; Webstorm-5dc341c0=31d1662e-8138-41b2-b6ba-b28d8fd0bf48; Abp.TenantId=; .AspNetCore.Culture=c%3Dar%7Cuic%3Dar; .AspNetCore.Antiforgery.PemIfRrkNTU=CfDJ8PjKjslIJi1Ahi9R0Khktu2wCTfsVIBW5JaOPkL7NS7G90JrER995Qkwap2QU0PVOc2BMoJ6UiB4yhGZh30dsW-4E60VCwd-fAFigbzHc5RlpybREfkN8BG6EG-GfNQo1x-b_csLRGQBJLmphRddjn8; XSRF-TOKEN=CfDJ8PjKjslIJi1Ahi9R0Khktu3TFCM0LFKsi2jb82aRjnNLtYaVHotrKgNXV26iDH8uufXH2v9JyJHnKQSiS1tK204y4Bi1oFsKNmuO-h0smiTmmHsluFiIA7XMwXzlKyDWPcbclhIA66BzUk03p1FWveU
+Host: localhost:44395
+Referer: https://localhost:44395/dav
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+depth: 0
+origin: https://localhost:44395
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+
+[13] <?xml version="1.0"?><propfind xmlns="DAV:"><prop><resourcetype/><displayname/><creationdate/><getlastmodified/><supportedlock/><lockdiscovery/><quota-available-bytes/><quota-used-bytes/><checked-in/><checked-out/></prop></propfind>
+[13] HTTP/1.1 207 
+X-Env-Version : .NET 5.0.17 64bit
+X-OS-Version : Microsoft Windows 10.0.22000
+Access-Control-Allow-Origin : https://localhost:44395
+Access-Control-Allow-Credentials : true
+Access-Control-Allow-Methods : ACL, CANCELUPLOAD, CHECKIN, CHECKOUT, COPY, DELETE, GET, HEAD, LOCK, MKCALENDAR, MKCOL, MOVE, OPTIONS, POST, PROPFIND, PROPPATCH, PUT, REPORT, SEARCH, UNCHECKOUT, UNLOCK, UPDATE, VERSION-CONTROL
+Access-Control-Allow-Headers : Overwrite, Destination, Content-Type, Depth, User-Agent, Translate, Range, Content-Range, Timeout, X-File-Size, X-Requested-With, If-Modified-Since, X-File-Name, Cache-Control, Location, Lock-Token, If
+Access-Control-Expose-Headers : DAV, content-length, Allow
+Access-Control-Max-Age : 2147483647
+X-Engine : IT Hit WebDAV Server .Net v12.1.11786.0 (Evaluation License)
+Content-Type : application/xml; charset=utf-8
+
+[13] <?xml version="1.0" encoding="utf-8"?><d:multistatus xmlns:d="DAV:"><d:response><d:href>https://localhost:44395/dav/</d:href><d:propstat><d:prop><d:resourcetype><d:collection /></d:resourcetype><d:displayname>dav</d:displayname><d:creationdate>2022-08-08T12:01:39Z</d:creationdate><d:getlastmodified>Mon, 08 Aug 2022 15:02:04 GMT</d:getlastmodified><d:supportedlock><d:lockentry><d:lockscope><d:exclusive /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry><d:lockentry><d:lockscope><d:shared /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry></d:supportedlock><d:lockdiscovery /></d:prop><d:status>HTTP/1.1 200 OK</d:status></d:propstat><d:propstat><d:prop><d:quota-available-bytes /><d:quota-used-bytes /><d:checked-in /><d:checked-out /></d:prop><d:status>HTTP/1.1 404 Not Found</d:status><d:responsedescription>Property was not found</d:responsedescription></d:propstat></d:response></d:multistatus>
+[13] ----------------- WebDAV Finished: 8/8/2022 6:04:29 PM Took 63ms --------
+
+[13] ----------------- WebDAV Started: 8/8/2022 6:04:29 PM -----------------
+[24] ----------------- WebDAV Started: 8/8/2022 6:04:29 PM -----------------
+[24] [OPTIONS] /dav/
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: close
+Cookie: Abp.Localization.CultureName=ar; Webstorm-5dc341c0=31d1662e-8138-41b2-b6ba-b28d8fd0bf48; Abp.TenantId=; .AspNetCore.Culture=c%3Dar%7Cuic%3Dar; .AspNetCore.Antiforgery.PemIfRrkNTU=CfDJ8PjKjslIJi1Ahi9R0Khktu2wCTfsVIBW5JaOPkL7NS7G90JrER995Qkwap2QU0PVOc2BMoJ6UiB4yhGZh30dsW-4E60VCwd-fAFigbzHc5RlpybREfkN8BG6EG-GfNQo1x-b_csLRGQBJLmphRddjn8; XSRF-TOKEN=CfDJ8PjKjslIJi1Ahi9R0Khktu3TFCM0LFKsi2jb82aRjnNLtYaVHotrKgNXV26iDH8uufXH2v9JyJHnKQSiS1tK204y4Bi1oFsKNmuO-h0smiTmmHsluFiIA7XMwXzlKyDWPcbclhIA66BzUk03p1FWveU
+Host: localhost:44395
+Referer: https://localhost:44395/dav
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+origin: https://localhost:44395
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+
+[13] [PROPFIND] /dav/
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: close
+Content-Length: 453
+Content-Type: text/xml; charset="UTF-8"
+Cookie: Abp.Localization.CultureName=ar; Webstorm-5dc341c0=31d1662e-8138-41b2-b6ba-b28d8fd0bf48; Abp.TenantId=; .AspNetCore.Culture=c%3Dar%7Cuic%3Dar; .AspNetCore.Antiforgery.PemIfRrkNTU=CfDJ8PjKjslIJi1Ahi9R0Khktu2wCTfsVIBW5JaOPkL7NS7G90JrER995Qkwap2QU0PVOc2BMoJ6UiB4yhGZh30dsW-4E60VCwd-fAFigbzHc5RlpybREfkN8BG6EG-GfNQo1x-b_csLRGQBJLmphRddjn8; XSRF-TOKEN=CfDJ8PjKjslIJi1Ahi9R0Khktu3TFCM0LFKsi2jb82aRjnNLtYaVHotrKgNXV26iDH8uufXH2v9JyJHnKQSiS1tK204y4Bi1oFsKNmuO-h0smiTmmHsluFiIA7XMwXzlKyDWPcbclhIA66BzUk03p1FWveU
+Host: localhost:44395
+Referer: https://localhost:44395/dav
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+depth: 1
+origin: https://localhost:44395
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+sec-fetch-dest: empty
+
+[13] <?xml version="1.0"?><propfind xmlns="DAV:"><prop><resourcetype/><displayname/><creationdate/><getlastmodified/><getcontenttype/><getcontentlength/><supportedlock/><lockdiscovery/><quota-available-bytes/><quota-used-bytes/><checked-in/><checked-out/></prop><limit><nresults>10</nresults><offset>0</offset></limit><orderby><order><prop><is-directory/></prop><descending/></order><order><prop><displayname/></prop><ascending/></order></orderby></propfind>
+[13] HTTP/1.1 207 
+X-Env-Version : .NET 5.0.17 64bit
+X-OS-Version : Microsoft Windows 10.0.22000
+Access-Control-Allow-Origin : https://localhost:44395
+Access-Control-Allow-Credentials : true
+Access-Control-Allow-Methods : ACL, CANCELUPLOAD, CHECKIN, CHECKOUT, COPY, DELETE, GET, HEAD, LOCK, MKCALENDAR, MKCOL, MOVE, OPTIONS, POST, PROPFIND, PROPPATCH, PUT, REPORT, SEARCH, UNCHECKOUT, UNLOCK, UPDATE, VERSION-CONTROL
+Access-Control-Allow-Headers : Overwrite, Destination, Content-Type, Depth, User-Agent, Translate, Range, Content-Range, Timeout, X-File-Size, X-Requested-With, If-Modified-Since, X-File-Name, Cache-Control, Location, Lock-Token, If
+Access-Control-Expose-Headers : DAV, content-length, Allow
+Access-Control-Max-Age : 2147483647
+X-Engine : IT Hit WebDAV Server .Net v12.1.11786.0 (Evaluation License)
+Content-Type : application/xml; charset=utf-8
+
+[24] HTTP/1.1 200 
+X-Env-Version : .NET 5.0.17 64bit
+X-OS-Version : Microsoft Windows 10.0.22000
+Access-Control-Allow-Origin : https://localhost:44395
+Access-Control-Allow-Credentials : true
+Access-Control-Allow-Methods : ACL, CANCELUPLOAD, CHECKIN, CHECKOUT, COPY, DELETE, GET, HEAD, LOCK, MKCALENDAR, MKCOL, MOVE, OPTIONS, POST, PROPFIND, PROPPATCH, PUT, REPORT, SEARCH, UNCHECKOUT, UNLOCK, UPDATE, VERSION-CONTROL
+Access-Control-Allow-Headers : Overwrite, Destination, Content-Type, Depth, User-Agent, Translate, Range, Content-Range, Timeout, X-File-Size, X-Requested-With, If-Modified-Since, X-File-Name, Cache-Control, Location, Lock-Token, If
+Access-Control-Expose-Headers : DAV, content-length, Allow
+Access-Control-Max-Age : 2147483647
+X-Engine : IT Hit WebDAV Server .Net v12.1.11786.0 (Evaluation License)
+DAV : 1, 2, 3, paging, resumable-upload
+Allow : COPY, DELETE, GET, HEAD, LOCK, MOVE, OPTIONS, POST, PROPFIND, PROPPATCH, PUT, REPORT, SEARCH, UNLOCK
+Public : COPY, DELETE, GET, HEAD, LOCK, MOVE, OPTIONS, POST, PROPFIND, PROPPATCH, PUT, REPORT, SEARCH, UNLOCK
+Accept-Ranges : bytes
+MS-Author-Via : DAV
+DASL : <DAV:basicsearch>
+
+[24] ----------------- WebDAV Finished: 8/8/2022 6:04:29 PM Took 0ms --------
+
+[13] <?xml version="1.0" encoding="utf-8"?><d:multistatus xmlns:ithitp="https://www.ithit.com/pagingschema/" xmlns:d="DAV:"><ithitp:total>13</ithitp:total><d:response><d:href>https://localhost:44395/dav/</d:href><d:propstat><d:prop><d:resourcetype><d:collection /></d:resourcetype><d:displayname>dav</d:displayname><d:creationdate>2022-08-08T12:01:39Z</d:creationdate><d:getlastmodified>Mon, 08 Aug 2022 15:02:04 GMT</d:getlastmodified><d:supportedlock><d:lockentry><d:lockscope><d:exclusive /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry><d:lockentry><d:lockscope><d:shared /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry></d:supportedlock><d:lockdiscovery /></d:prop><d:status>HTTP/1.1 200 OK</d:status></d:propstat><d:propstat><d:prop><d:getcontenttype /><d:getcontentlength /><d:quota-available-bytes /><d:quota-used-bytes /><d:checked-in /><d:checked-out /></d:prop><d:status>HTTP/1.1 404 Not Found</d:status><d:responsedescription>Property was not found</d:responsedescription></d:propstat></d:response><d:response><d:href>https://localhost:44395/dav/Library/</d:href><d:propstat><d:prop><d:resourcetype><d:collection /></d:resourcetype><d:displayname>Library</d:displayname><d:creationdate>2022-08-08T12:01:39Z</d:creationdate><d:getlastmodified>Mon, 08 Aug 2022 12:01:39 GMT</d:getlastmodified><d:supportedlock><d:lockentry><d:lockscope><d:exclusive /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry><d:lockentry><d:lockscope><d:shared /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry></d:supportedlock><d:lockdiscovery /></d:prop><d:status>HTTP/1.1 200 OK</d:status></d:propstat><d:propstat><d:prop><d:getcontenttype /><d:getcontentlength /><d:quota-available-bytes /><d:quota-used-bytes /><d:checked-in /><d:checked-out /></d:prop><d:status>HTTP/1.1 404 Not Found</d:status><d:responsedescription>Property was not found</d:responsedescription></d:propstat></d:response><d:response><d:href>https://localhost:44395/dav/My%20Directory/</d:href><d:propstat><d:prop><d:resourcetype><d:collection /></d:resourcetype><d:displayname>My Directory</d:displayname><d:creationdate>2022-08-08T12:01:39Z</d:creationdate><d:getlastmodified>Mon, 08 Aug 2022 12:01:39 GMT</d:getlastmodified><d:supportedlock><d:lockentry><d:lockscope><d:exclusive /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry><d:lockentry><d:lockscope><d:shared /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry></d:supportedlock><d:lockdiscovery /></d:prop><d:status>HTTP/1.1 200 OK</d:status></d:propstat><d:propstat><d:prop><d:getcontenttype /><d:getcontentlength /><d:quota-available-bytes /><d:quota-used-bytes /><d:checked-in /><d:checked-out /></d:prop><d:status>HTTP/1.1 404 Not Found</d:status><d:responsedescription>Property was not found</d:responsedescription></d:propstat></d:response><d:response><d:href>https://localhost:44395/dav/Products/</d:href><d:propstat><d:prop><d:resourcetype><d:collection /></d:resourcetype><d:displayname>Products</d:displayname><d:creationdate>2022-08-08T12:01:39Z</d:creationdate><d:getlastmodified>Mon, 08 Aug 2022 12:01:39 GMT</d:getlastmodified><d:supportedlock><d:lockentry><d:lockscope><d:exclusive /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry><d:lockentry><d:lockscope><d:shared /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry></d:supportedlock><d:lockdiscovery /></d:prop><d:status>HTTP/1.1 200 OK</d:status></d:propstat><d:propstat><d:prop><d:getcontenttype /><d:getcontentlength /><d:quota-available-bytes /><d:quota-used-bytes /><d:checked-in /><d:checked-out /></d:prop><d:status>HTTP/1.1 404 Not Found</d:status><d:responsedescription>Property was not found</d:responsedescription></d:propstat></d:response><d:response><d:href>https://localhost:44395/dav/Sales/</d:href><d:propstat><d:prop><d:resourcetype><d:collection /></d:resourcetype><d:displayname>Sales</d:displayname><d:creationdate>2022-08-08T12:01:39Z</d:creationdate><d:getlastmodified>Mon, 08 Aug 2022 12:01:39 GMT</d:getlastmodified><d:supportedlock><d:lockentry><d:lockscope><d:exclusive /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry><d:lockentry><d:lockscope><d:shared /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry></d:supportedlock><d:lockdiscovery /></d:prop><d:status>HTTP/1.1 200 OK</d:status></d:propstat><d:propstat><d:prop><d:getcontenttype /><d:getcontentlength /><d:quota-available-bytes /><d:quota-used-bytes /><d:checked-in /><d:checked-out /></d:prop><d:status>HTTP/1.1 404 Not Found</d:status><d:responsedescription>Property was not found</d:responsedescription></d:propstat></d:response><d:response><d:href>https://localhost:44395/dav/Templates/</d:href><d:propstat><d:prop><d:resourcetype><d:collection /></d:resourcetype><d:displayname>Templates</d:displayname><d:creationdate>2022-08-08T12:01:39Z</d:creationdate><d:getlastmodified>Mon, 08 Aug 2022 12:01:39 GMT</d:getlastmodified><d:supportedlock><d:lockentry><d:lockscope><d:exclusive /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry><d:lockentry><d:lockscope><d:shared /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry></d:supportedlock><d:lockdiscovery /></d:prop><d:status>HTTP/1.1 200 OK</d:status></d:propstat><d:propstat><d:prop><d:getcontenttype /><d:getcontentlength /><d:quota-available-bytes /><d:quota-used-bytes /><d:checked-in /><d:checked-out /></d:prop><d:status>HTTP/1.1 404 Not Found</d:status><d:responsedescription>Property was not found</d:responsedescription></d:propstat></d:response><d:response><d:href>https://localhost:44395/dav/Document.pages</d:href><d:propstat><d:prop><d:resourcetype /><d:displayname>Document.pages</d:displayname><d:creationdate>2022-08-08T12:01:39Z</d:creationdate><d:getlastmodified>Sun, 07 Aug 2022 05:45:51 GMT</d:getlastmodified><d:getcontenttype>application/octet-stream</d:getcontenttype><d:getcontentlength>301633</d:getcontentlength><d:supportedlock><d:lockentry><d:lockscope><d:exclusive /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry><d:lockentry><d:lockscope><d:shared /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry></d:supportedlock><d:lockdiscovery /></d:prop><d:status>HTTP/1.1 200 OK</d:status></d:propstat><d:propstat><d:prop><d:quota-available-bytes /><d:quota-used-bytes /><d:checked-in /><d:checked-out /></d:prop><d:status>HTTP/1.1 404 Not Found</d:status><d:responsedescription>Property was not found</d:responsedescription></d:propstat></d:response><d:response><d:href>https://localhost:44395/dav/General.docx</d:href><d:propstat><d:prop><d:resourcetype /><d:displayname>General.docx</d:displayname><d:creationdate>2022-08-08T12:01:39Z</d:creationdate><d:getlastmodified>Sun, 07 Aug 2022 05:45:51 GMT</d:getlastmodified><d:getcontenttype>application/vnd.openxmlformats-officedocument.wordprocessingml.document</d:getcontenttype><d:getcontentlength>0</d:getcontentlength><d:supportedlock><d:lockentry><d:lockscope><d:exclusive /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry><d:lockentry><d:lockscope><d:shared /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry></d:supportedlock><d:lockdiscovery /></d:prop><d:status>HTTP/1.1 200 OK</d:status></d:propstat><d:propstat><d:prop><d:quota-available-bytes /><d:quota-used-bytes /><d:checked-in /><d:checked-out /></d:prop><d:status>HTTP/1.1 404 Not Found</d:status><d:responsedescription>Property was not found</d:responsedescription></d:propstat></d:response><d:response><d:href>https://localhost:44395/dav/Introduction.pptx</d:href><d:propstat><d:prop><d:resourcetype /><d:displayname>Introduction.pptx</d:displayname><d:creationdate>2022-08-08T12:01:39Z</d:creationdate><d:getlastmodified>Sun, 07 Aug 2022 05:45:51 GMT</d:getlastmodified><d:getcontenttype>application/vnd.openxmlformats-officedocument.presentationml.presentation</d:getcontenttype><d:getcontentlength>27140</d:getcontentlength><d:supportedlock><d:lockentry><d:lockscope><d:exclusive /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry><d:lockentry><d:lockscope><d:shared /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry></d:supportedlock><d:lockdiscovery /></d:prop><d:status>HTTP/1.1 200 OK</d:status></d:propstat><d:propstat><d:prop><d:quota-available-bytes /><d:quota-used-bytes /><d:checked-in /><d:checked-out /></d:prop><d:status>HTTP/1.1 404 Not Found</d:status><d:responsedescription>Property was not found</d:responsedescription></d:propstat></d:response><d:response><d:href>https://localhost:44395/dav/Notes1023050.txt</d:href><d:propstat><d:prop><d:resourcetype /><d:displayname>Notes1023050.txt</d:displayname><d:creationdate>2022-08-08T12:01:39Z</d:creationdate><d:getlastmodified>Sun, 07 Aug 2022 05:45:51 GMT</d:getlastmodified><d:getcontenttype>text/plain</d:getcontenttype><d:getcontentlength>18</d:getcontentlength><d:supportedlock><d:lockentry><d:lockscope><d:exclusive /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry><d:lockentry><d:lockscope><d:shared /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry></d:supportedlock><d:lockdiscovery /></d:prop><d:status>HTTP/1.1 200 OK</d:status></d:propstat><d:propstat><d:prop><d:quota-available-bytes /><d:quota-used-bytes /><d:checked-in /><d:checked-out /></d:prop><d:status>HTTP/1.1 404 Not Found</d:status><d:responsedescription>Property was not found</d:responsedescription></d:propstat></d:response><d:response><d:href>https://localhost:44395/dav/Presentation.key</d:href><d:propstat><d:prop><d:resourcetype /><d:displayname>Presentation.key</d:displayname><d:creationdate>2022-08-08T12:01:39Z</d:creationdate><d:getlastmodified>Sun, 07 Aug 2022 05:45:51 GMT</d:getlastmodified><d:getcontenttype>application/octet-stream</d:getcontenttype><d:getcontentlength>1375062</d:getcontentlength><d:supportedlock><d:lockentry><d:lockscope><d:exclusive /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry><d:lockentry><d:lockscope><d:shared /></d:lockscope><d:locktype><d:write /></d:locktype></d:lockentry></d:supportedlock><d:lockdiscovery /></d:prop><d:status>HTTP/1.1 200 OK</d:status></d:propstat><d:propstat><d:prop><d:quota-available-bytes /><d:quota-used-bytes /><d:checked-in /><d:checked-out /></d:prop><d:status>HTTP/1.1 404 Not Found</d:status><d:responsedescription>Property was not found</d:responsedescription></d:propstat></d:response></d:multistatus>
+[13] ----------------- WebDAV Finished: 8/8/2022 6:04:29 PM Took 15ms --------
+

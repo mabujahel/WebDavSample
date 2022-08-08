@@ -17,7 +17,7 @@ namespace WebDavSample
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
+            Host.CreateDefaultBuilder(args).ConfigureAppConfiguration((context, builder) => { builder.AddJsonFile("appsettings.webdav.json", optional: true, reloadOnChange: true); })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

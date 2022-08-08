@@ -45,6 +45,24 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "ITHit.Server": {
+              "target": "Package",
+              "version": "[12.1.11786, )"
+            },
+            "ITHit.Server.Core": {
+              "target": "Package",
+              "version": "[12.1.11786, )"
+            },
+            "ITHit.WebDAV.Server": {
+              "target": "Package",
+              "version": "[12.1.11786, )"
+            },
+            "System.Data.OleDb": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
